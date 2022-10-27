@@ -1,0 +1,6 @@
+# plugins/block-msp.toml
+["modules/@mindbaz/zonemta-block-msp"]
+enabled = "receiver"
+
+# msp to block
+zone_block = ["zone1.com"]
