@@ -3,9 +3,10 @@ ROOT_DIR:=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 ## Global binaries
 
 BIN_NPM:=$(shell which npm)
-BIN_MOCHA:=$(shell which mocha)
-BIN_NYC:=$(shell which nyc)
-
+# BIN_MOCHA:=$(shell which mocha)
+# BIN_NYC:=$(shell which nyc)
+BIN_MOCHA:=./node_modules/.bin/mocha
+BIN_NYC:=./node_modules/.bin/nyc
 
 .EXPORT_ALL_VARIABLES:
 

@@ -1,0 +1,12 @@
+include:
+  - template: Mbz.devops.gitlab-ci.yml
+
+
+tests-coverage:
+  extends: .test-nodejs
+  script:
+    - echo "Nothing to do here"
+
+
+deploy-module-nodejs:
+  extends: .deploy-nodejs

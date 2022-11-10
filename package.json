@@ -31,5 +31,8 @@
     "bugs": {
         "url": "https://github.com/Mindbaz/zonemta-block-msp/issues"
     },
-    "homepage": "https://github.com/Mindbaz/zonemta-block-msp#readme"
+    "homepage": "https://github.com/Mindbaz/zonemta-block-msp#readme",
+    "dependencies": {
+        "wild-config": "^1.7.0"
+    }
 }
