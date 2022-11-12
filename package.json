@@ -1,6 +1,6 @@
 {
-    "name": "@mindbaz/zonemta-block-msp",
-    "version": "0.0.0",
+    "name": "@mindbaz/zonemta-block-zone",
+    "version": "1.0.0",
     "description": "Block sending to specific zone",
     "main": "index.js",
     "author": "Victor Lehouck <vlehouck@mindbaz.com>",
@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.mindbaz.com/nodejs/zonemta-block-msp.git"
+        "url": "git+https://github.com/Mindbaz/zonemta-block-zone.git"
     },
     "keywords": [
         "zonemta"
